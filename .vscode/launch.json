@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run application_main.py (LOCAL)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/application_main.py",
+      "args": ["LOCAL"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
