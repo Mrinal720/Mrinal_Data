@@ -18,6 +18,7 @@ pipeline {
               echo "package completed successfully"
             }
         }
+        
         stage('Deploy'){
             steps{
               echo "deploy completed successfully"
@@ -25,6 +26,7 @@ pipeline {
         }
     }
 }
+
 //     environment {
 //         PIPENV_VENV_IN_PROJECT = '1'
 //     }
